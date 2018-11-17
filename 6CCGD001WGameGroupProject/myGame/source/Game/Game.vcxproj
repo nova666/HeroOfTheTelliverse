@@ -89,6 +89,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(WindowsSDK_IncludePath);$(SolutionDir)..\source\Library;$(SolutionDir)..\..\external\Effects11\include;$(SolutionDir)..\..\external\DirectXTK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -104,6 +105,9 @@ IF EXIST "$(SolutionDir)..\content" xcopy /E /Y "$(SolutionDir)..\content" "$(Ou
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)..\..\external\assimp\bin\assimp_release-dll_win32\*.dll" "$(TargetDir)"</Command>
     </PostBuildEvent>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -159,6 +163,9 @@ IF EXIST "$(SolutionDir)..\content" xcopy /E /Y "$(SolutionDir)..\content" "$(Ou
     <ClInclude Include="ModelFromFile.h" />
     <ClInclude Include="RenderingGame.h" />
     <ClInclude Include="TriangleDemo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

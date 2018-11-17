@@ -1,15 +1,13 @@
-﻿  A subdirectory or file C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Content already exists.
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.cso
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.fx
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.cso
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.fx
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\apple.3DS
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\bench.3ds
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\appleD.jpg
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\bench.jpg
+﻿  A subdirectory or file D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Content already exists.
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.cso
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.fx
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.cso
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.fx
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\apple.3DS
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\bench.3ds
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\appleD.jpg
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\bench.jpg
   8 File(s) copied
-  program.cpp
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Game.vcxproj -> C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Game.exe
-  C:\Users\w1605762.INTRANET\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\..\external\assimp\bin\assimp_release-dll_win32\assimp.dll
+  Game.vcxproj -> D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Game.exe
+  D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\..\external\assimp\bin\assimp_release-dll_win32\assimp.dll
           1 file(s) copied.

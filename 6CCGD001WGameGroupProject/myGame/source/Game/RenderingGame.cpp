@@ -40,6 +40,7 @@ namespace Rendering
 		{
 			throw GameException("DirectInput8Create() failed");
 		}
+
 		mKeyboard = new Keyboard(*this, mDirectInput);
 		mComponents.push_back(mKeyboard);
 		mServices.AddService(Keyboard::TypeIdClass(), mKeyboard);
