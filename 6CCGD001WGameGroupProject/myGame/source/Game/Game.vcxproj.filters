@@ -27,6 +27,12 @@
     <ClCompile Include="ModelFromFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DiffuseLightingMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDiffuseLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RenderingGame.h">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ModelFromFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffuseLightingMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDiffuseLight.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
