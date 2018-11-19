@@ -5,6 +5,8 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "ModelFromFile.h"
+#include "FpsComponent.h"
+#include "RenderStateHelper.h"
 
 namespace Rendering
 {;
@@ -13,7 +15,8 @@ namespace Rendering
 
     RenderingGame::RenderingGame(HINSTANCE instance, const std::wstring& windowClass, const std::wstring& windowTitle, int showCommand)
         :  Game(instance, windowClass, windowTitle, showCommand),
-        mDemo(nullptr),mKeyboard(nullptr),mMouse(nullptr), mModel(nullptr)
+        mDemo(nullptr),mKeyboard(nullptr),mMouse(nullptr), mModel(nullptr), mFpsComponent(nullptr),
+		mRenderStateHelper(nullptr)
     {
         mDepthStencilBufferEnabled = true;
         mMultiSamplingEnabled = true;
@@ -49,12 +52,17 @@ namespace Rendering
 		mComponents.push_back(mMouse);
 		mServices.AddService(Mouse::TypeIdClass(), mMouse);
 
-		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\bench.3ds");
-		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.005f, 0.0f, 0.6f, 0.0f);
-		mComponents.push_back(mModel);
+		mFpsComponent = new FpsComponent(*this);
+		mFpsComponent->Initialize();
 
-		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\apple.3ds");
+		mRenderStateHelper = new RenderStateHelper(*this);
+
+		/*mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\bench.3ds");
 		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.005f, 0.0f, 0.6f, 0.0f);
+		mComponents.push_back(mModel);*/
+
+		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
+		mModel->SetPosition(0.0f, -0.0f, -0.0f, 0.005f, 0.0f, 0.6f, 0.0f);
 
 		mComponents.push_back(mModel);
 
@@ -73,6 +81,9 @@ namespace Rendering
 		DeleteObject(mMouse);
 		ReleaseObject(mDirectInput);
 		DeleteObject(mModel);
+		DeleteObject(mFpsComponent);
+		DeleteObject(mRenderStateHelper);
+
         Game::Shutdown();
     }
 
@@ -81,6 +92,8 @@ namespace Rendering
 
         Game::Update(gameTime);
 		//add this for the camera
+		mFpsComponent->Update(gameTime);
+
 		if (mKeyboard->WasKeyPressedThisFrame(DIK_ESCAPE))
 		{
 			Exit();
@@ -94,6 +107,10 @@ namespace Rendering
         mDirect3DDeviceContext->ClearDepthStencilView(mDepthStencilView, D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1.0f, 0);
 
         Game::Draw(gameTime);
+
+		mRenderStateHelper->SaveAll();
+		mFpsComponent->Draw(gameTime);
+		mRenderStateHelper->RestoreAll();
        
         HRESULT hr = mSwapChain->Present(0, 0);
         if (FAILED(hr))

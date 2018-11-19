@@ -53,5 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="..\..\content\Font\Arial_14_Regular.spritefont">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

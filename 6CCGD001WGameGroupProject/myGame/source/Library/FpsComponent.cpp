@@ -37,7 +37,7 @@ namespace Library
         SetCurrentDirectory(Utility::ExecutableDirectory().c_str());
 
         mSpriteBatch = new SpriteBatch(mGame->Direct3DDeviceContext());
-        mSpriteFont = new SpriteFont(mGame->Direct3DDevice(), L"Content\\Fonts\\Arial_14_Regular.spritefont");
+        mSpriteFont = new SpriteFont(mGame->Direct3DDevice(), L"Content\\Font\\Arial_14_Regular.spritefont");
     }
 
     void FpsComponent::Update(const GameTime& gameTime)

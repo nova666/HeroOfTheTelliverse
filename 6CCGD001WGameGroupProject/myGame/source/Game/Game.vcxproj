@@ -169,6 +169,7 @@ IF EXIST "$(SolutionDir)..\content" xcopy /E /Y "$(SolutionDir)..\content" "$(Ou
     <ClInclude Include="TriangleDemo.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\content\Font\Arial_14_Regular.spritefont" />
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

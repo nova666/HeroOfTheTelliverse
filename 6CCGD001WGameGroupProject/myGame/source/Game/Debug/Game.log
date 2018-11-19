@@ -1,20 +1,17 @@
-﻿  A subdirectory or file C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Content already exists.
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.cso
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.fx
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\DiffuseLighting.fx
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.cso
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.fx
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\include\Common.fxh
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\apple.3DS
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\bench.3ds
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\appleD.jpg
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\bench.jpg
-  10 File(s) copied
-  DiffuseLightingMaterial.cpp
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  ObjectDiffuseLight.cpp
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Generating Code...
-  Game.vcxproj -> C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Game.exe
-  C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\..\external\assimp\bin\assimp_release-dll_win32\assimp.dll
+﻿  A subdirectory or file C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Content already exists.
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.cso
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.fx
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\DiffuseLighting.fx
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.cso
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.fx
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\include\Common.fxh
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Font\Arial_14_Regular.spritefont
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\apple.3DS
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\bench.3ds
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\cube.3DS
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\appleD.jpg
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\bench.jpg
+  12 File(s) copied
+  Game.vcxproj -> C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Game.exe
+  C:\Users\w1539829\Desktop\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\..\external\assimp\bin\assimp_release-dll_win32\assimp.dll
           1 file(s) copied.
