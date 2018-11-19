@@ -1,3 +1,5 @@
-﻿  Library.vcxproj -> D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Libraryd.lib
-  A subdirectory or file D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\lib\ already exists.
+﻿  DrawableGameComponent.cpp
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Library.vcxproj -> C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Libraryd.lib
+  A subdirectory or file C:\Users\w1605762\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\lib\ already exists.
           1 file(s) copied.

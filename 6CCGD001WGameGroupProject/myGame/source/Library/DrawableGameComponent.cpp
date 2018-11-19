@@ -45,5 +45,6 @@ namespace Library
 
 	void DrawableGameComponent::Draw(const GameTime& gameTime)
 	{
+
 	}
 }
