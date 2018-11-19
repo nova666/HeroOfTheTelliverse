@@ -20,13 +20,12 @@ namespace Rendering
 		~ModelFromFile();
 
 		virtual void Update(const GameTime& gameTime) override;
+		
+		//texture switching functions
+		void setTexture(std::wstring texturePath); //set the texture to the passed texture
+		void clearTexture(); //reset the texture to the missing texture image
 
-
-		//add to support multiple model in the scene, remove this function
-
-
-
-		virtual void SetPosition(const float rotateX, const float rotateY, const 							float rotateZ, const float scaleFactor, const float 						translateX, const float translateY, const float translateZ);
+		virtual void SetPosition(const float rotateX, const float rotateY, const float rotateZ, const float scaleFactor, const float translateX, const float translateY, const float translateZ);
 		virtual void Initialize() override;
 		virtual void Draw(const GameTime& gameTime) override;
 
@@ -66,6 +65,7 @@ namespace Rendering
 
 		const std::string modelFile;
 
+		std::wstring mTexturePath = L"Content\\Textures\\missing.jpg";
 
 	};
 }

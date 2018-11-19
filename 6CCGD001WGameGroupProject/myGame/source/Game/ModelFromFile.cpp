@@ -46,6 +46,15 @@ namespace Rendering
 		XMStoreFloat4x4(&mWorldMatrix, worldMatrix);
 	}
 
+	void ModelFromFile::setTexture(std::wstring texturePath)
+	{
+		this->mTexturePath = texturePath;
+	}
+
+	void ModelFromFile::clearTexture()
+	{
+		this->mTexturePath = L"Content\\Textures\\missing.jpg";
+	}
 
 	void ModelFromFile::Initialize()
 	{
@@ -147,7 +156,7 @@ namespace Rendering
 		// Load the texture
 	   // std::wstring textureName = L"Content\\Textures\\EarthComposite.jpg";
 
-		std::wstring textureName = L"Content\\Textures\\bench.jpg";
+		std::wstring textureName = mTexturePath; //L"Content\\Textures\\bench.jpg";
 
 
 		if (FAILED(hr = DirectX::CreateWICTextureFromFile(mGame->Direct3DDevice(), mGame->Direct3DDeviceContext(), textureName.c_str(), nullptr, &mTextureShaderResourceView)))

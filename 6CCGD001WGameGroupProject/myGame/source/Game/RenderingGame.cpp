@@ -51,9 +51,27 @@ namespace Rendering
 		mComponents.push_back(mMouse);
 		mServices.AddService(Mouse::TypeIdClass(), mMouse);
 
+		//--------------------------------------DRAWING-------------------------------------------------------------//
+		
+		//mModel->clearTexture();
+		//cube1
 		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
-		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.005f, 0.0f, 0.6f, 0.0f);
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.01f, 0.0f, 0.6f, 0.0f);
+		//mModel->setTexture(L"Content\\Textures\\appleD.jpg");
 		mComponents.push_back(mModel);
+
+		//cube2
+		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.01f, 1.0f, 0.6f, 0.0f);
+		mModel->setTexture(L"Content\\Textures\\bench.jpg");
+		mComponents.push_back(mModel);
+
+		//cube3
+		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.01, -1.0f, 0.6f, 0.0f);
+		mModel->setTexture(L"Content\\Textures\\appleD.jpg");
+		mComponents.push_back(mModel);
+		//--------------------------------------FINISHED DRAWING----------------------------------------------------//
 
 		mFpsComponent = new FpsComponent(*this);
 		mFpsComponent->Initialize();
