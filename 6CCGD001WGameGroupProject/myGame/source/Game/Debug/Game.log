@@ -14,9 +14,8 @@
   D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\missing.jpg
   D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\tiles.jpg
   14 File(s) copied
-  RenderingGame.cpp
+  TriangleDemo.cpp
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-d:\github\heroofthetelliverse\6ccgd001wgamegroupproject\mygame\source\game\renderinggame.cpp(71): warning C4305: 'argument': truncation from 'double' to 'const float'
   Game.vcxproj -> D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Game.exe
   D:\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\..\external\assimp\bin\assimp_release-dll_win32\assimp.dll
           1 file(s) copied.

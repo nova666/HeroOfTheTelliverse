@@ -23,22 +23,13 @@ namespace Rendering
 	TriangleDemo::~TriangleDemo()
 	{
 		ReleaseObject(mWvpVariable);
+		ReleaseObject(this->mColorTextureVariable);
 		ReleaseObject(mPass);
 		ReleaseObject(mTechnique);
 		ReleaseObject(mEffect);
 		ReleaseObject(mInputLayout);
 		ReleaseObject(mVertexBuffer);
-
-
 		ReleaseObject(mTextureShaderResourceView);
-		
-		try
-		{
-			ReleaseObject(this->mColorTextureVariable);
-		}
-		catch (int e)
-		{
-		}
 	}
 
 	void TriangleDemo::Initialize()
