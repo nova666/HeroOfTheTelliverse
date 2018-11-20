@@ -26,6 +26,8 @@ namespace Rendering
 		void clearTexture(); //reset the texture to the missing texture image
 
 		virtual void SetPosition(const float rotateX, const float rotateY, const float rotateZ, const float scaleFactor, const float translateX, const float translateY, const float translateZ);
+		virtual void SetPosition(const float rotateX, const float rotateY, const float rotateZ, const float translateX, const float translateY, const float translateZ);
+		void setScale(float scaleX, float scaleY, float scaleZ);
 		virtual void Initialize() override;
 		virtual void Draw(const GameTime& gameTime) override;
 
@@ -65,6 +67,7 @@ namespace Rendering
 
 		const std::string modelFile;
 
+		float scaleX = 0.05f, scaleY = 0.05f, scaleZ = 0.05f; //initial scales
 		std::wstring mTexturePath = L"Content\\Textures\\missing.jpg";
 
 	};

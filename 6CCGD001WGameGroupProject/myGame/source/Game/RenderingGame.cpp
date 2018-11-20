@@ -57,9 +57,14 @@ namespace Rendering
 
 		//<-------- Kitchen Level - Cubes Positioned based on Level Design -------->   
 		
+		//note that setScale MUST be before setPosition for everything to work correctly
+
+
 		//Fridge
 		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
-		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.05f, -2.0f, 0.0f, 0.0f);
+		//mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.05f, -2.0f, 0.0f, 0.0f);
+		mModel->setScale(0.05f, 0.05f, 1.0f);
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, -2.0f, 0.0f, 0.0f);
 		//mModel->setTexture(L"Content\\Textures\\appleD.jpg");
 		mComponents.push_back(mModel);
 

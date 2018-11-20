@@ -33,6 +33,7 @@ namespace Rendering
 		ReleaseObject(mIndexBuffer);
 	}
 
+	//sets the position and rotation of an object and performs a uniform scale from the passed parameter
 	void ModelFromFile::SetPosition(const float rotateX, const float rotateY, const float rotateZ, const float scaleFactor, const float translateX, const float translateY, const float translateZ)
 	{
 		XMMATRIX worldMatrix = XMLoadFloat4x4(&mWorldMatrix);
@@ -44,6 +45,27 @@ namespace Rendering
 		worldMatrix = RotationZ * RotationX *RotationY* Scale * Translation;
 
 		XMStoreFloat4x4(&mWorldMatrix, worldMatrix);
+	}
+
+	//sets the position and rotation of an object and uses the scaling from setScale
+	void ModelFromFile::SetPosition(const float rotateX, const float rotateY, const float rotateZ, const float translateX, const float translateY, const float translateZ)
+	{
+		XMMATRIX worldMatrix = XMLoadFloat4x4(&mWorldMatrix);
+		XMMATRIX RotationZ = XMMatrixRotationZ(rotateZ);
+		XMMATRIX RotationX = XMMatrixRotationX(rotateX);
+		XMMATRIX RotationY = XMMatrixRotationY(rotateY);
+		XMMATRIX Scale = XMMatrixScaling(this->scaleX, this->scaleY, this->scaleZ);
+		XMMATRIX Translation = XMMatrixTranslation(translateX, translateY, translateZ);
+		worldMatrix = RotationZ* RotationX* RotationY* Scale* Translation;
+
+		XMStoreFloat4x4(&mWorldMatrix, worldMatrix);
+	}
+
+	void ModelFromFile::setScale(float scaleX, float scaleY, float scaleZ)
+	{
+		this->scaleX = scaleX;
+		this->scaleY = scaleY;
+		this->scaleZ = scaleZ;
 	}
 
 	void ModelFromFile::setTexture(std::wstring texturePath)
