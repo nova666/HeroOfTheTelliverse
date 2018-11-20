@@ -147,13 +147,14 @@ namespace Rendering
 		//BasicEffectVertex(XMFLOAT4(0.0f, 0.0f, -1.5f, 1.0f), XMFLOAT4(1.0f, 1.0f, 0.0f, 1.0f)),//V2 
 		//BasicEffectVertex(XMFLOAT4(0.0f, 2.0f, 0.0f, 1.0f), XMFLOAT4(0.0f, 0.0f, 1.0f, 1.0f)),//V3
 		//BasicEffectVertex(XMFLOAT4(0.0f, -2.0f, 0.0f, 1.0f), XMFLOAT4(0.0f, 0.0f, 1.0f, 1.0f)),//V4 
-			TextureMappingVertex(XMFLOAT4(-5.0f, 0.0f, 5.0f, 1.0f), XMFLOAT2(0.0f, 1.0f)),
+
+		//--------------------------------------Floor Plane----------------------------------------------------//
+		    TextureMappingVertex(XMFLOAT4(-5.0f, 0.0f, 5.0f, 1.0f), XMFLOAT2(0.0f, 1.0f)),
 			TextureMappingVertex(XMFLOAT4(+5.0f, 0.0f, 5.0f, 1.0f), XMFLOAT2(1.0f, 1.0f)),
 			TextureMappingVertex(XMFLOAT4(+5.0f, 0.0f, -5.0f, 1.0f), XMFLOAT2(1.0f, 0.0f)),
 			TextureMappingVertex(XMFLOAT4(-5.0f, 0.0f, -5.0f, 1.0f), XMFLOAT2(0.0f, 0.0f)),
 
-
-		};
+					};
 
 
 

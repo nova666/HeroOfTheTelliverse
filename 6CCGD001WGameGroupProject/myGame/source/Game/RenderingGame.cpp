@@ -52,25 +52,41 @@ namespace Rendering
 		mServices.AddService(Mouse::TypeIdClass(), mMouse);
 
 		//--------------------------------------DRAWING-------------------------------------------------------------//
-		
+		//(rotx,roty,rotz,scale,posx,posy,posz)
 		//mModel->clearTexture();
-		//cube1
+
+		//<-------- Kitchen Level - Cubes Positioned based on Level Design -------->   
+		
+		//Fridge
 		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
-		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.01f, 0.0f, 0.6f, 0.0f);
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.05f, -2.0f, 0.0f, 0.0f);
 		//mModel->setTexture(L"Content\\Textures\\appleD.jpg");
 		mComponents.push_back(mModel);
 
-		//cube2
+		//Shelf
 		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
-		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.01f, 1.0f, 0.6f, 0.0f);
-		mModel->setTexture(L"Content\\Textures\\bench.jpg");
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.05f, 0.0f, 3.0f, 0.0f);
+		//mModel->setTexture(L"Content\\Textures\\appleD.jpg");
 		mComponents.push_back(mModel);
 
-		//cube3
+		//Counter
 		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
-		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.01, -1.0f, 0.6f, 0.0f);
-		mModel->setTexture(L"Content\\Textures\\appleD.jpg");
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.05f, 3.0f, 0.0f, 0.0f);
+		//mModel->setTexture(L"Content\\Textures\\appleD.jpg");
 		mComponents.push_back(mModel);
+
+		//Box on Counter
+		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.05f, 3.0f, 1.5f, 0.0f);
+		//mModel->setTexture(L"Content\\Textures\\appleD.jpg");
+		mComponents.push_back(mModel);
+
+		//Box at end of Kitchen 
+		mModel = new ModelFromFile(*this, *mCamera, "Content\\Models\\cube.3ds");
+		mModel->SetPosition(-1.57f, -0.0f, -0.0f, 0.05f, 6.0f, 0.0f, 0.0f);
+		//mModel->setTexture(L"Content\\Textures\\appleD.jpg");
+		mComponents.push_back(mModel);
+		
 		//--------------------------------------FINISHED DRAWING----------------------------------------------------//
 
 		mFpsComponent = new FpsComponent(*this);
