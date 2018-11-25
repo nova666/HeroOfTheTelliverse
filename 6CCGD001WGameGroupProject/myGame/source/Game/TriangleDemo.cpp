@@ -184,6 +184,7 @@ namespace Rendering
 			0, 3, 1,
 			3, 2, 1,
 		};
+
 		D3D11_BUFFER_DESC indexBufferDesc;
 		ZeroMemory(&indexBufferDesc, sizeof(indexBufferDesc));
 		indexBufferDesc.ByteWidth = sizeof(UINT)* ARRAYSIZE(indices);
@@ -192,6 +193,7 @@ namespace Rendering
 		D3D11_SUBRESOURCE_DATA indexSubResourceData;
 		ZeroMemory(&indexSubResourceData, sizeof(indexSubResourceData));
 		indexSubResourceData.pSysMem = indices;
+
 		if (FAILED(mGame->Direct3DDevice()->CreateBuffer(&indexBufferDesc, &indexSubResourceData, &mIndexBuffer)))
 		{
 			throw GameException("ID3D11Device::CreateBuffer() failed.");
@@ -212,7 +214,6 @@ namespace Rendering
 	{
 		//mAngle += XM_PI * static_cast<float>(gameTime.ElapsedGameTime());
 		//XMStoreFloat4x4(&mWorldMatrix, XMMatrixRotationY(mAngle));
-
 	}
 
 	void TriangleDemo::Draw(const GameTime& gameTime)
@@ -235,8 +236,6 @@ namespace Rendering
 		mWvpVariable->SetMatrix(reinterpret_cast<const float*>(&wvp));
 		mPass->Apply(0, direct3DDeviceContext);
 		//direct3DDeviceContext->Draw(3, 0);
-
-
 		//direct3DDeviceContext->Draw(21,0);
 		direct3DDeviceContext->DrawIndexed(18, 0, 0);
 	}

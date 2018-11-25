@@ -1,24 +1,19 @@
-﻿  A subdirectory or file C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Content already exists.
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.cso
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.fx
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\DiffuseLighting.fx
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.cso
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.fx
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\include\Common.fxh
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Font\Arial_14_Regular.spritefont
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\apple.3DS
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\bench.3ds
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\cube.3DS
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\appleD.jpg
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\bench.jpg
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\missing.jpg
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\tiles.jpg
+﻿  A subdirectory or file C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Content already exists.
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.cso
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\BasicEffect.fx
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\DiffuseLighting.fx
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.cso
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\TextureMapping.fx
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Effects\include\Common.fxh
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Font\Arial_14_Regular.spritefont
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\apple.3DS
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\bench.3ds
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Models\cube.3DS
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\appleD.jpg
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\bench.jpg
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\missing.jpg
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\content\Textures\tiles.jpg
   14 File(s) copied
-  ModelFromFile.cpp
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  RenderingGame.cpp
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Generating Code...
-  Game.vcxproj -> C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Game.exe
-  C:\Users\w1605762.INTRANET\Documents\New folder\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\..\external\assimp\bin\assimp_release-dll_win32\assimp.dll
+  Game.vcxproj -> C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\Debug\Game.exe
+  C:\Users\Nova D\Documents\GitHub\HeroOfTheTelliverse\6CCGD001WGameGroupProject\myGame\build\..\..\external\assimp\bin\assimp_release-dll_win32\assimp.dll
           1 file(s) copied.
